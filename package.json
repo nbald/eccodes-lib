@@ -1,0 +1,36 @@
+{
+  "name": "eccodes-lib",
+  "version": "0.1.0",
+  "description": "ecCodes shared library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "share": "share"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbald/eccodes-lib.git"
+  },
+  "keywords": [
+    "eccodes",
+    "grib",
+    "grib1",
+    "grib2",
+    "bufr",
+    "weather",
+    "weather-on-cloud"
+  ],
+  "author": "Nicolas Baldeck",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nbald/eccodes-lib/issues"
+  },
+  "homepage": "https://github.com/nbald/eccodes-lib#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "uuid": "^3.3.2"
+  }
+}
