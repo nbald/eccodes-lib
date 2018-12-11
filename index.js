@@ -36,8 +36,8 @@ class EcCodesLib {
   getEnv() {
     return {
       LD_LIBRARY_PATH: `${__dirname}/lib`,
-      ECCODES_DEFINITION_PATH: this.definitionsPath || `${__dirname}/share/eccodes/definitions`,
-      ECCODES_SAMPLES_PATH: `${__dirname}/share/eccodes/samples`
+      ECCODES_DEFINITION_PATH: this.definitionsPath || `${__dirname}/share/definitions`,
+      ECCODES_SAMPLES_PATH: `${__dirname}/share/samples`
     }
   }
 }
