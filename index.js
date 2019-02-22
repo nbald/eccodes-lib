@@ -29,7 +29,7 @@ class EcCodesLib {
 
   async cleanup() {
     if (this.definitionsPath === null) return
-    await fs.remove(dir)
+    await fs.remove(this.definitionsPath)
     this.definitionsPath = null
   }
 
